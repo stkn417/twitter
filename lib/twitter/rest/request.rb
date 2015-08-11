@@ -62,6 +62,8 @@ module Twitter
           'image/jpeg'
         when /\.png$/i
           'image/png'
+        when /\.mp4%/i
+          'video/mp4'
         else
           'application/octet-stream'
         end
